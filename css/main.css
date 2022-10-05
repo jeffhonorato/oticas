@@ -34,7 +34,31 @@ a {
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
 .header {
   height: 50vh;
-  background-color: cornflowerblue;
+}
+
+/* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+.menu__bar {
+  width: 46px;
+  position: fixed;
+  top: 45px;
+  right: 20px;
+}
+
+/* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+.img__logo {
+  width: 250px;
+}
+
+/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+.nav__itens {
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: center;
+  background-color: aquamarine;
 }
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_banner-cabecalho.scss */

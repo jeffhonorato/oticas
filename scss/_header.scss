@@ -1,5 +1,29 @@
 .header {
     height: 50vh;
-    background-color: cornflowerblue;
 }
+
+.menu__bar {
+    width: 46px;
+    position: fixed;
+    top: 45px;
+    right: 20px;
+}
+
+.img__logo {
+    width: 250px;
+}
+
+.nav__itens {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    background-color: aquamarine;
+
+}
+
+
 
