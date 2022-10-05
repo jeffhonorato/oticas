@@ -1,26 +1,5 @@
 .header {
     height: 50vh;
-}
-
-.banner__fotos {
-    max-width: 75rem; /* 1200px */
-    position: relative;
-    margin: 0rem 1rem;
-}
-
-.banner__img {
-    position: absolute;
-    height: 420px;
-    width: 1000px;
-    opacity: 0;
-
-        @include celular {
-            width: 320px;
-            height: 250px;
-        }
-}
-
-.banner__img.selected {
-    opacity: 1;
+    background-color: cornflowerblue;
 }
 

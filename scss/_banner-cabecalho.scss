@@ -1,0 +1,39 @@
+.banner__cabecalho {
+    height: 70vh;
+    background-color: #000;
+
+        @include celular {
+            height: 42vh;
+        }
+    }
+
+.banner__fotos {
+    // max-width: 75rem; /* 1200px */
+    position: relative;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+    
+}
+
+.banner__fotos {
+    background-color: #000;
+}
+
+.banner__img {
+    position: absolute;
+    height: 420px;
+    opacity: 0;
+    transition: opacity 900ms;
+
+        @include celular {
+            width: 320px;
+            height: 200px;
+        }
+}
+
+.banner__img.selected {
+    opacity: 1;
+}
+

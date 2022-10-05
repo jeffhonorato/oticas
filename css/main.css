@@ -34,33 +34,53 @@ a {
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
 .header {
   height: 50vh;
+  background-color: cornflowerblue;
 }
 
-/* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
-.banner__fotos {
-  max-width: 75rem;
-  /* 1200px */
-  position: relative;
-  margin: 0rem 1rem;
-}
-
-/* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
-.banner__img {
-  position: absolute;
-  height: 420px;
-  width: 1000px;
-  opacity: 0;
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_banner-cabecalho.scss */
+.banner__cabecalho {
+  height: 70vh;
+  background-color: #000;
 }
 
 @media (max-width: 420px) {
-  /* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
-  .banner__img {
-    width: 320px;
-    height: 250px;
+  /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_banner-cabecalho.scss */
+  .banner__cabecalho {
+    height: 42vh;
   }
 }
 
-/* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+/* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_banner-cabecalho.scss */
+.banner__fotos {
+  position: relative;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: darkgreen;
+}
+
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_banner-cabecalho.scss */
+.banner__fotos {
+  background-color: #000;
+}
+
+/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_banner-cabecalho.scss */
+.banner__img {
+  position: absolute;
+  height: 420px;
+  opacity: 0;
+  transition: opacity 900ms;
+}
+
+@media (max-width: 420px) {
+  /* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_banner-cabecalho.scss */
+  .banner__img {
+    width: 320px;
+    height: 200px;
+  }
+}
+
+/* line 36, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_banner-cabecalho.scss */
 .banner__img.selected {
   opacity: 1;
 }

@@ -1,4 +1,4 @@
-let tempo = 3000;
+let tempo = 4000;
 let imagemIndex = 0;
 let imagens = document.querySelectorAll(".banner__img");
 let maxImagens = imagens.length;
