@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/********** VARIAVEIS - GLOBAIS **********/
+/********** CONFIGURAÇÕES **********/
+/* line 6, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* line 25, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+a {
+  text-decoration: none;
+}
+
+/********** MIXINS **********/
+/********** MONSTAGEM PÁGINA **********/
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+.header {
+  height: 50vh;
+}
+
+/*# sourceMappingURL=main.css.map */

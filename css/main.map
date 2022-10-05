@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_header.scss"
+	],
+	"sourcesContent": [
+		"/********** VARIAVEIS - GLOBAIS **********/\r\n\r\n\r\n\r\n/********** CONFIGURAÇÕES **********/\r\n* {\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nhtml {\r\n    scroll-behavior: smooth;\r\n}\r\n\r\nul, li {\r\n    list-style: none;\r\n}\r\n\r\nimg {\r\n    display: block;\r\n    max-width: 100%;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n}\r\n\r\n\r\n/********** MIXINS **********/\r\n@mixin celular {\r\n    @media(max-width: 420px) {\r\n        @content;\r\n    }\r\n}\r\n\r\n@mixin tablet {\r\n    @media(min-width: 420px) and (max-width: 800px) {\r\n        @content;\r\n    }\r\n}\r\n\r\n@mixin desktop {\r\n    @media(min-width: 800px) and (max-width: 3000px) {\r\n        @content;\r\n    }\r\n}\r\n\r\n\r\n\r\n/********** MONSTAGEM PÁGINA **********/\r\n@import \"header\";",
+		".header {\r\n    height: 50vh;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,2CAA2C;AAI3C,qCAAqC;;AACrC,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;;AAED,AAAA,IAAI,CAAC;EACD,eAAe,EAAE,MAAM;CAC1B;;;AAED,AAAA,EAAE,EAAE,EAAE,CAAC;EACH,UAAU,EAAE,IAAI;CACnB;;;AAED,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;CAClB;;;AAED,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB;;AAGD,8BAA8B;AAqB9B,wCAAwC;;AClDxC,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,IAAI;CACf"
+}

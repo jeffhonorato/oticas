@@ -1,0 +1,52 @@
+/********** VARIAVEIS - GLOBAIS **********/
+
+
+
+/********** CONFIGURAÇÕES **********/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/********** MIXINS **********/
+@mixin celular {
+    @media(max-width: 420px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media(min-width: 420px) and (max-width: 800px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media(min-width: 800px) and (max-width: 3000px) {
+        @content;
+    }
+}
+
+
+
+/********** MONSTAGEM PÁGINA **********/
+@import "header";
