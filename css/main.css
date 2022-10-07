@@ -218,22 +218,23 @@ a {
   border-radius: 20px;
   transition: all .5s;
   box-shadow: 1px 1px 20px #002F5D;
+  background-color: #fff;
 }
 
-/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_otica-info.scss */
+/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_otica-info.scss */
 .otica__info--ico {
   width: 80px;
   margin: .5rem auto;
 }
 
-/* line 32, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_otica-info.scss */
+/* line 33, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_otica-info.scss */
 .otica__info--titulo {
   font-family: "Didact Gothic", sans-serif;
   text-align: center;
   margin-bottom: .5rem;
 }
 
-/* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_otica-info.scss */
+/* line 39, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_otica-info.scss */
 .otica__info--link {
   font-size: 1.1rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
@@ -246,7 +247,7 @@ a {
   border-radius: 10px;
 }
 
-/* line 49, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_otica-info.scss */
+/* line 50, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_otica-info.scss */
 .otica__info--link:hover {
   background-color: #000;
   color: #fff;
