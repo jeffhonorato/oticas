@@ -1,0 +1,55 @@
+.otica__info {
+    padding: 2rem 0;
+    background-color: $cor-cards;
+}
+
+.otica__info__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.otica__info--card {
+    padding: .7rem;
+    box-shadow: 5px 5px 2px $cor-links;
+    width: 200px;
+    border-radius: 6px;
+
+        &:hover {
+            border-radius: 20px;
+            transition: all .5s;
+            box-shadow: 1px 1px 20px $cor-links;
+        }
+}
+
+.otica__info--ico { 
+    width: 80px;
+    margin: .5rem auto;
+    
+}
+
+.otica__info--titulo {
+    font-family: $fonte-corpo;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.otica__info--link {
+    font-size: 1.1rem;
+    font-family: $fonte-titulo;
+    background-color: $cor-links;
+    color: #fff;
+    padding: .5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+
+        &:hover {
+            background-color: #000;
+            color: #fff;
+            transition: all .5s;
+
+        }
+}

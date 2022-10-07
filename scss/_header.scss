@@ -7,6 +7,14 @@
     position: fixed;
     top: 45px;
     right: 20px;
+    z-index: 2;
+    cursor: pointer;
+
+        @include celular {
+            width: 40px;
+            top: 20px;
+            left: 20px;
+        }
 }
 
 .img__logo {
@@ -16,8 +24,8 @@
 
 .nav__itens {
     position: fixed;
-    top: 100px;
-    right: 10px;
+    top: 70px;
+    left: 10px;
     display: flex;
     flex-direction: column;
     gap: .2rem;
@@ -38,6 +46,10 @@
 
 .nav__itens.ativo {
     display: flex;
+
+        @include celular {
+            display: block;
+        }
 }
 
 .nav__item {
@@ -52,6 +64,11 @@
             background-color:#000;
             color: #fff;
             transition: all .5s;
+        }
+
+        @include celular {
+            font-size: 1rem;
+            text-align: center;
         }
 }
 
