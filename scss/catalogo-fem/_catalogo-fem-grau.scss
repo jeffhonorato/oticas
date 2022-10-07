@@ -1,0 +1,99 @@
+.catalogo__fem--btnBox {
+    padding-bottom: 2rem;
+}
+
+.catalogo__fem--tituloLinks {
+    font-family: $fonte-titulo;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.catalogo__fem--btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+        @include celular {
+            flex-wrap: wrap;
+            gap: .5rem;
+        }
+}
+
+.catalogo__fem--link {
+    background-color: $cor-cards;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
+    border: 1px solid #000;
+
+        &:hover {
+            background-color: $cor-links;
+            border: 1px solid #fff;
+            transition: all .6s;
+            box-shadow: 5px 5px 10px #fff;
+        }
+
+        &:hover .catalogo__fem--nomeLink {
+            color: #fff;
+            
+        }
+}
+
+.catalogo__fem--icoLink {
+    width: 50px;
+
+        @include celular {
+            width: 30px;
+        }
+}
+
+.catalogo__fem--nomeLink {
+    font-family: $fonte-corpo;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+/***** CATALOGO FEMININO - ÓCULOS DE GRAU  *****/
+
+.catalogo__fem--grau {
+    background-color: $cor-cards;
+    height: 100vh;
+}
+
+.catalogo__fem--grauTitulo {
+    font-family: $fonte-titulo;
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+
+
+
+
+
+
+
+/***** SWIPER SLIDER  *****/
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }

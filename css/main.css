@@ -313,15 +313,20 @@ a {
   }
 }
 
-/* line 51, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-feminino.scss */
-.catalo__fem--tituloLinks {
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.catalogo__fem--btnBox {
+  padding-bottom: 2rem;
+}
+
+/* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.catalogo__fem--tituloLinks {
   font-family: "Yanone Kaffeesatz", sans-serif;
   text-align: center;
   font-size: 3rem;
   margin-bottom: 2rem;
 }
 
-/* line 58, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-feminino.scss */
+/* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .catalogo__fem--btns {
   display: flex;
   justify-content: center;
@@ -329,7 +334,15 @@ a {
   gap: 1rem;
 }
 
-/* line 65, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-feminino.scss */
+@media (max-width: 420px) {
+  /* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+  .catalogo__fem--btns {
+    flex-wrap: wrap;
+    gap: .5rem;
+  }
+}
+
+/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .catalogo__fem--link {
   background-color: #e9e9e9;
   padding: .5rem;
@@ -337,18 +350,77 @@ a {
   align-items: center;
   gap: .4rem;
   border-radius: 20px;
+  box-shadow: 5px 5px 10px #000;
+  border: 1px solid #000;
 }
 
-/* line 74, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-feminino.scss */
+/* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.catalogo__fem--link:hover {
+  background-color: #002F5D;
+  border: 1px solid #fff;
+  transition: all .6s;
+  box-shadow: 5px 5px 10px #fff;
+}
+
+/* line 41, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.catalogo__fem--link:hover .catalogo__fem--nomeLink {
+  color: #fff;
+}
+
+/* line 47, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .catalogo__fem--icoLink {
   width: 50px;
 }
 
-/* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-feminino.scss */
+@media (max-width: 420px) {
+  /* line 47, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+  .catalogo__fem--icoLink {
+    width: 30px;
+  }
+}
+
+/* line 55, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .catalogo__fem--nomeLink {
   font-family: "Didact Gothic", sans-serif;
   color: #000;
   font-size: 1.2rem;
+}
+
+/***** CATALOGO FEMININO - ÓCULOS DE GRAU  *****/
+/* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.catalogo__fem--grau {
+  background-color: #e9e9e9;
+  height: 100vh;
+}
+
+/* line 68, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.catalogo__fem--grauTitulo {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+/***** SWIPER SLIDER  *****/
+/* line 83, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 89, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+/* line 96, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

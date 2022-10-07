@@ -48,35 +48,6 @@
         }
 }
 
-.catalo__fem--tituloLinks {
-    font-family: $fonte-titulo;
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 2rem;
-}
 
-.catalogo__fem--btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
 
-.catalogo__fem--link {
-    background-color: $cor-cards;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    gap: .4rem;
-    border-radius: 20px;
-}
 
-.catalogo__fem--icoLink {
-    width: 50px;
-}
-
-.catalogo__fem--nomeLink {
-    font-family: $fonte-corpo;
-    color: #000;
-    font-size: 1.2rem;
-}
