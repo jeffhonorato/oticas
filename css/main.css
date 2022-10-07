@@ -85,7 +85,7 @@ a {
   flex-direction: column;
   gap: .2rem;
   align-items: center;
-  z-index: 1;
+  z-index: 2;
   display: none;
   animation: delay .5s forwards;
 }
@@ -390,7 +390,7 @@ a {
 /* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .catalogo__fem--grau {
   background-color: #e9e9e9;
-  height: 110vh;
+  height: 120vh;
 }
 
 @media (max-width: 420px) {
