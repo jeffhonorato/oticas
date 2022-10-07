@@ -404,17 +404,18 @@ a {
 /* line 75, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--grau {
   border: 2px solid #000;
+  background-color: #fff;
 }
 
 /***** SWIPER SLIDER  *****/
-/* line 86, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 87, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 92, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 93, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .swiper-slide {
   background-position: center;
   background-size: cover;
