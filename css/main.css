@@ -254,4 +254,64 @@ a {
   transition: all .5s;
 }
 
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_catalogo-feminino.scss */
+.catalogo__feminino {
+  background-color: #00B2D1;
+  border-top: 1px solid #002F5D;
+}
+
+/* line 6, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_catalogo-feminino.scss */
+.catalogo__fem--cabecalho {
+  height: 48vh;
+  padding: 4rem 0;
+  position: relative;
+}
+
+/* line 15, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_catalogo-feminino.scss */
+.catalogo__fem--titulo {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 10rem;
+  margin-left: 4rem;
+}
+
+@media (max-width: 420px) {
+  /* line 15, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_catalogo-feminino.scss */
+  .catalogo__fem--titulo {
+    font-size: 5rem;
+    margin-left: 2rem;
+  }
+}
+
+/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_catalogo-feminino.scss */
+.catalogo__fem--titulo2 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 10rem;
+  margin-left: 20rem;
+}
+
+@media (max-width: 420px) {
+  /* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_catalogo-feminino.scss */
+  .catalogo__fem--titulo2 {
+    font-size: 5rem;
+    margin-left: 4rem;
+  }
+}
+
+/* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_catalogo-feminino.scss */
+.catalogo__picture--ico {
+  width: 300px;
+  position: absolute;
+  top: -20px;
+  right: 450px;
+}
+
+@media (max-width: 420px) {
+  /* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_catalogo-feminino.scss */
+  .catalogo__picture--ico {
+    width: 100px;
+    top: 0px;
+    right: 4px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

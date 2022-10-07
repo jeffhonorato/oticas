@@ -1,0 +1,49 @@
+.catalogo__feminino {
+    background-color: $cor-principal;
+    border-top: 1px solid $cor-links;
+}
+
+.catalogo__fem--cabecalho {
+    height: 48vh;
+    padding: 4rem 0;
+    // display: flex;
+    // flex-wrap: wrap;
+    // gap: 5rem;
+    position: relative;
+}
+
+.catalogo__fem--titulo {
+    font-family: $fonte-titulo;
+    font-size: 10rem;
+    margin-left: 4rem;
+
+        @include celular {
+            font-size: 5rem;
+            margin-left: 2rem;
+        }
+
+}
+
+.catalogo__fem--titulo2 {
+    font-family: $fonte-titulo;
+    font-size: 10rem;
+    margin-left: 20rem;
+
+    @include celular {
+        font-size: 5rem;
+        margin-left: 4rem;
+    }
+}
+
+.catalogo__picture--ico {
+    width: 300px;
+    position: absolute;
+    top: -20px;
+    right: 450px;
+
+        @include celular {
+            width: 100px;
+            top: 0px;
+            right: 4px;
+        }
+}
