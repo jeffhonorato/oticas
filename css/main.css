@@ -1,30 +1,30 @@
 @charset "UTF-8";
 /********** VARIAVEIS - GLOBAIS **********/
 /********** CONFIGURAÇÕES **********/
-/* line 6, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+/* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
 ul, li {
   list-style: none;
 }
 
-/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
 img {
   display: block;
   max-width: 100%;
 }
 
-/* line 25, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+/* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
 a {
   text-decoration: none;
 }
@@ -46,19 +46,53 @@ a {
 
 /* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
 .img__logo {
-  width: 250px;
+  width: 280px;
+  margin: 0rem 2rem;
 }
 
-/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
 .nav__itens {
   position: fixed;
   top: 100px;
   right: 10px;
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: .2rem;
   align-items: center;
-  background-color: aquamarine;
+  z-index: 1;
+  display: none;
+  animation: delay .5s forwards;
+}
+
+@keyframes delay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* line 39, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+.nav__itens.ativo {
+  display: flex;
+}
+
+/* line 43, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+.nav__item {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.4rem;
+  background-color: #00B2D1;
+  padding: .5rem;
+  border: 1px solid #000;
+  color: #000;
+}
+
+/* line 51, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+.nav__item:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all .5s;
 }
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_banner-cabecalho.scss */

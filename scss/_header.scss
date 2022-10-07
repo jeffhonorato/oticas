@@ -10,7 +10,8 @@
 }
 
 .img__logo {
-    width: 250px;
+    width: 280px;
+    margin: 0rem 2rem;
 }
 
 .nav__itens {
@@ -19,10 +20,39 @@
     right: 10px;
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .2rem;
     align-items: center;
-    background-color: aquamarine;
+    z-index: 1;
+    display: none;
+    animation: delay .5s forwards;
+}
 
+@keyframes delay {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;   
+    }
+}
+
+.nav__itens.ativo {
+    display: flex;
+}
+
+.nav__item {
+    font-family: $fonte-titulo;
+    font-size: 1.4rem;
+    background-color:$cor-principal;
+    padding: .5rem;
+    border: 1px solid #000;
+    color: #000;
+
+        &:hover {
+            background-color:#000;
+            color: #fff;
+            transition: all .5s;
+        }
 }
 
 
