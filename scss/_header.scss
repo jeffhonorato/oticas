@@ -6,7 +6,7 @@
     width: 46px;
     position: fixed;
     top: 45px;
-    right: 20px;
+    left: 20px;
     z-index: 2;
     cursor: pointer;
 
@@ -17,14 +17,26 @@
         }
 }
 
+.img__picture--logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
 .img__logo {
-    width: 280px;
+    width: 340px;
     margin: 0rem 2rem;
+
+        @include celular {
+            width: 300px;
+            margin: 0 1rem;
+        }
+
 }
 
 .nav__itens {
     position: fixed;
-    top: 70px;
+    top: 100px;
     left: 10px;
     display: flex;
     flex-direction: column;
@@ -33,6 +45,13 @@
     z-index: 1;
     display: none;
     animation: delay .5s forwards;
+
+    @include celular {
+        top: 70px;
+        
+    }
+
+  
 }
 
 @keyframes delay {

@@ -41,7 +41,7 @@ a {
   width: 46px;
   position: fixed;
   top: 45px;
-  right: 20px;
+  left: 20px;
   z-index: 2;
   cursor: pointer;
 }
@@ -56,15 +56,30 @@ a {
 }
 
 /* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+.img__picture--logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
 .img__logo {
-  width: 280px;
+  width: 340px;
   margin: 0rem 2rem;
 }
 
-/* line 25, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+@media (max-width: 420px) {
+  /* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+  .img__logo {
+    width: 300px;
+    margin: 0 1rem;
+  }
+}
+
+/* line 37, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
 .nav__itens {
   position: fixed;
-  top: 70px;
+  top: 100px;
   left: 10px;
   display: flex;
   flex-direction: column;
@@ -73,6 +88,13 @@ a {
   z-index: 1;
   display: none;
   animation: delay .5s forwards;
+}
+
+@media (max-width: 420px) {
+  /* line 37, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+  .nav__itens {
+    top: 70px;
+  }
 }
 
 @keyframes delay {
@@ -84,19 +106,19 @@ a {
   }
 }
 
-/* line 47, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+/* line 66, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
 .nav__itens.ativo {
   display: flex;
 }
 
 @media (max-width: 420px) {
-  /* line 47, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+  /* line 66, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
   .nav__itens.ativo {
     display: block;
   }
 }
 
-/* line 55, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+/* line 74, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
 .nav__item {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1.4rem;
@@ -106,7 +128,7 @@ a {
   color: #000;
 }
 
-/* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+/* line 82, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
 .nav__item:hover {
   background-color: #000;
   color: #fff;
@@ -114,7 +136,7 @@ a {
 }
 
 @media (max-width: 420px) {
-  /* line 55, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
+  /* line 74, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_header.scss */
   .nav__item {
     font-size: 1rem;
     text-align: center;
