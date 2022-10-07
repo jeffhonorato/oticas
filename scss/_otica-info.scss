@@ -38,13 +38,13 @@
 .otica__info--link {
     font-size: 1.1rem;
     font-family: $fonte-titulo;
-    background-color: $cor-links;
+    background-color: $cor-principal;
     color: #fff;
     padding: .5rem;
     display: flex;
     text-align: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 10px;
 
         &:hover {
             background-color: #000;
