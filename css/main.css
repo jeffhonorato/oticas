@@ -406,24 +406,66 @@ a {
   border: 2px solid #000;
   background-color: #00B2D1;
   border-radius: 5%;
+  padding-bottom: 1rem;
 }
 
-/* line 86, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 87, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--img {
   width: 280px;
   margin: .5rem auto;
   border-radius: 10%;
 }
 
+/* line 93, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.fem__card--nome {
+  font-family: "Didact Gothic", sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* line 98, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.fem__card--precos {
+  margin-bottom: 1rem;
+}
+
+/* line 102, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.fem__card--preco {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 109, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.fem__card--juros {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* line 115, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.fem__card--links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* line 122, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.fem__card--detalhes {
+  padding: .5rem;
+  background-color: #002F5D;
+}
+
 /***** SWIPER SLIDER  *****/
-/* line 99, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 132, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 105, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 138, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .swiper-slide {
   background-position: center;
   background-size: cover;
