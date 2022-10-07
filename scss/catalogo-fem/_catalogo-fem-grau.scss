@@ -63,6 +63,10 @@
 .catalogo__fem--grau {
     background-color: $cor-cards;
     height: 110vh;
+
+        @include celular {
+            height: 135vh;
+        }
 }
 
 // .catalogo__fem--slidersCards {
@@ -88,12 +92,14 @@
     width: 280px;
     margin: .5rem auto;
     border-radius: 10%;
+    border: 1px solid #000;
 }
 
 .fem__card--nome {
     font-family: $fonte-corpo;
     text-align: center;
     margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 .fem__card--precos {
     margin-bottom: 1rem;
@@ -122,6 +128,27 @@
 .fem__card--detalhes {
     padding: .5rem;
     background-color: $cor-links;
+    color:#fff;
+    font-family: $fonte-titulo;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    border: 1px solid #fff;
+
+        &:hover {
+            background-color: $cor-cards;
+            transition: all .5s;
+            border: 1px solid #000;
+        }
+}
+
+.fem__card--a {
+    padding: .5rem;
+    background-color: $cor-links;
+    color:#fff;
+    font-family: $fonte-titulo;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    border: 1px solid #fff;
 }
 
 
