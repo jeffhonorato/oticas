@@ -14,7 +14,17 @@ const modal = () => {
             modalBox.classList.add("ativo");
             e.preventDefault();
         });  
-    };
 
 
+    const btnFechar = document.querySelector(".btn-fechar");
+    btnFechar.addEventListener("click", () => {
+        const modalBox = document.querySelector(".js-modal");
+        modalBox.classList.remove("ativo");
+    }); 
+    
+    console.log(btnFechar);
+
+};
+
+ 
 modal();    
