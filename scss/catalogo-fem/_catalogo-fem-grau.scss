@@ -158,7 +158,7 @@
 
 
 /***** MODAL BOX  *****/
-.catalogo__modal--BoxFem {
+.modal__card--grau {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -171,11 +171,11 @@
     display: none;
 }
 
-.catalogo__modal--BoxFem.ativo {
+.modal__card--grau.ativo {
     display: block;
 }
 
-.modal__card--grau {
+.modal__card--box {
     position: fixed;
     top: 0;
     bottom: 0;
