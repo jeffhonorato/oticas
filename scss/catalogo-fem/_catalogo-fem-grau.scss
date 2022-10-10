@@ -164,15 +164,25 @@
 
 }
 
-.modal__card--grau {
+.modal__card--box {
+    display: grid;
+    grid-template-columns: 400px 800px;
+    justify-content: center;
+    
+}
 
+.modal__card--grau {
+   
 }
 
 .modal__card--fotos {
     display: flex;
     align-items: center;
+    gap: .4rem;
     border: 1px solid #000;
-    width: 320px;
+    border-radius: 6px;
+    width: 340px;
+    padding: 4px;
 }
 
 .modal__card--fotosPeq {
@@ -187,6 +197,8 @@
     border-radius: 10px;
     opacity: .7;
     border: 1px solid #000;
+    cursor: pointer;
+    
 
         &:hover {
             opacity: 1;
@@ -194,8 +206,13 @@
         }
 }
 
+.modal__card--fotoGra {
+    
+}
+
 .img-gra-grauFem {
-    width: 260px;
+    width: 280px;
+    border-radius: 4px;
 }
 
 
