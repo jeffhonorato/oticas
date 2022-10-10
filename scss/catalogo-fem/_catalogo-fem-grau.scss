@@ -161,13 +161,35 @@
 
 /***** MODAL BOX  *****/
 .catalogo__modal--BoxFem {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(131, 131, 131);
+    width: 100%;
+    height: 100%;
+}
 
+.modal__card--grau {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    place-content: center;
+    background-color: #fff;
+    margin: 2rem;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px #000;
 }
 
 .modal__card--box {
     display: grid;
-    grid-template-columns: 400px 800px;
+    grid-template-columns: 400px 600px;
     justify-content: center;
+    
 
         @include celular {
             display: grid;
@@ -190,6 +212,7 @@
     border-radius: 6px;
     width: 340px;
     padding: 4px;
+    box-shadow: 1px 1px 10px #000;
 }
 
 .modal__card--fotosPeq {
