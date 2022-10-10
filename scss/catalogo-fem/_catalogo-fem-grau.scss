@@ -68,10 +68,7 @@
         }
 }
 
-// .catalogo__fem--slidersCards {
-//     display: grid;
-//     place-content: center;
-// }
+
 
 .catalogo__fem--grauTitulo {
     font-family: $fonte-titulo;
@@ -132,6 +129,7 @@
     font-size: 1.5rem;
     border-radius: 10%;
     border: 1px solid #fff;
+    cursor: pointer;
 
         &:hover {
             background-color: $cor-cards;
@@ -169,6 +167,12 @@
     background-color: rgb(131, 131, 131);
     width: 100%;
     height: 100%;
+
+    display: none;
+}
+
+.catalogo__modal--BoxFem.ativo {
+    display: block;
 }
 
 .modal__card--grau {
@@ -273,7 +277,7 @@
     font-family: $fonte-titulo;
     background-color: $cor-links;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: .3rem;
     border-radius: 10px;
     border: 2px solid #fff;

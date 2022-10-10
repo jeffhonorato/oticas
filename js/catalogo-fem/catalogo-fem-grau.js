@@ -6,3 +6,9 @@ const imgPeq = document.querySelectorAll(".js-imgPeq-card1-grau");
         })
     })
 
+const btnDetalhesCard1 = document.querySelector(".js-btn-card1-grauFem");
+    btnDetalhesCard1.addEventListener("click", () => {
+        const modalBox = document.querySelector(".js-modal");
+        modalBox.classList.add("ativo");
+       
+    });    
