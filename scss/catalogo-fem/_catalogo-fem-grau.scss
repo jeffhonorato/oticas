@@ -147,6 +147,7 @@
     font-size: 1.5rem;
     border-radius: 10%;
     border: 1px solid #fff;
+    cursor: pointer;
 
         &:hover {
             background-color: $cor-cards;
@@ -167,7 +168,7 @@
     background-color: rgba(131, 131, 131, 0.5);
     width: 100%;
     height: 100%;
-    display: block;
+    display: none;
 }
 
 .modal__card--grau.ativo {
@@ -175,7 +176,7 @@
 }
 
 .modal__card--box {
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
