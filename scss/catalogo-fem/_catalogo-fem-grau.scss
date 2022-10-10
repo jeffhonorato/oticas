@@ -213,14 +213,43 @@
         }
 }
 
-.modal__card--fotoGra {
-    
-}
-
 .img-gra-grauFem {
     width: 280px;
     border-radius: 4px;
 }
+
+.modal__card--titulo {
+    font-family: $fonte-titulo;
+    font-size: 2rem;
+}
+
+.modal__card--preco {
+    font-family: $fonte-corpo;
+    font-size: 2rem;
+}
+
+.modal__card__juros {
+    font-family: $fonte-corpo;
+    font-size: 1.2rem;
+}
+
+.modal__card--link {
+    font-family: $fonte-titulo;
+    background-color: $cor-links;
+    color: #fff;
+    font-size: 1.8rem;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 2px solid #fff;
+
+        &:hover {
+            background-color: $cor-cards; 
+            border: 2px solid #000;
+            color: #000;
+            transition: all .5s;
+        }
+}
+  
 
 
 
