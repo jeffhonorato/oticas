@@ -168,7 +168,7 @@
     width: 100%;
     height: 100%;
 
-    display: none;
+    display: block;
 }
 
 .modal__card--grau.ativo {
@@ -183,29 +183,34 @@
     right: 0;
     display: grid;
     place-content: center;
-    background-color: #fff;
+    grid-template-columns: 400px 600px;
+    justify-content: center;
     margin: 2rem;
     border-radius: 30px;
     box-shadow: 1px 1px 10px #000;
-}
-
-.modal__card--box {
-    display: grid;
-    grid-template-columns: 400px 600px;
-    justify-content: center;
-    
-
+    background-color: #fff;
+        
         @include celular {
             display: grid;
             grid-template-columns: 1fr;
             justify-content: center;
             justify-items: center;
         }
-    
 }
 
-.modal__card--grau {
-   
+.btn-fechar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60px;
+    position: absolute;
+    opacity: .7;
+    cursor: pointer;
+
+        &:hover {
+            opacity: 1;
+            transition: all .5s;
+        }
 }
 
 .modal__card--fotos {
@@ -317,15 +322,6 @@
 .modal__card--caracteristicaItens {
     font-family: $fonte-corpo;
 }
-
-
-
-
-
-
-
-
-
 
 
 
