@@ -218,10 +218,18 @@
     border-radius: 4px;
 }
 
+.modal__card--infoBox {
+    margin: 0rem .4rem;
+}
+
 .modal__card--titulo {
     font-family: $fonte-titulo;
     font-size: 2rem;
     margin-bottom: 1rem;
+
+        @include celular {
+            margin-top: 1.5rem;
+        }
 }
 
 .modal__card--precoBox {
@@ -266,25 +274,21 @@
     font-family: $fonte-corpo;
     text-transform: uppercase;
     font-size: 1.3rem;
-    padding: .5rem;
 }
 
 .modal__card--descP {
     font-family: $fonte-corpo;
-    padding: .5rem;
 }
 
 .modal__card--caracteristicaTitulo {
     font-family: $fonte-corpo;
     text-transform: uppercase;
     font-size: 1.3rem;
-    padding: .5rem;
 }
 
 
 .modal__card--caracteristicaItens {
     font-family: $fonte-corpo;
-    margin-left: .4rem;
 }
 
 
