@@ -168,6 +168,13 @@
     display: grid;
     grid-template-columns: 400px 800px;
     justify-content: center;
+
+        @include celular {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            justify-items: center;
+        }
     
 }
 
