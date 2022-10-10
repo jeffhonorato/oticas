@@ -160,6 +160,43 @@
 
 
 /***** MODAL BOX  *****/
+.catalogo__modal--BoxFem {
+
+}
+
+.modal__card--grau {
+
+}
+
+.modal__card--fotos {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    width: 320px;
+}
+
+.modal__card--fotosPeq {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+
+}
+
+.img-peq-grauFem {
+    width: 80px;
+    border-radius: 10px;
+    opacity: .7;
+    border: 1px solid #000;
+
+        &:hover {
+            opacity: 1;
+            transition: all .6s;
+        }
+}
+
+.img-gra-grauFem {
+    width: 260px;
+}
 
 
 
