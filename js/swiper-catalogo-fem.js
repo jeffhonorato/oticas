@@ -1,11 +1,11 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".oculos-fem-grau", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: "3",
+    slidesPerView: "4",
     loop: "true",
     coverflowEffect: {
-      rotate: 10,
+      rotate: 5,
       stretch: 1,
       depth: 90,
       modifier: 5,
