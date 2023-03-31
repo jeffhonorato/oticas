@@ -188,14 +188,21 @@
         }
 }
 
-.fem__card--detalhes {
-    text-align: center;
+.fem__card--detalhesMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
     margin-top: 1rem;
 }
 
-.fem__card--detalhesTitulo {
-    font-family: $fonte-corpo;
+.fem__card--detalhesMenuLink {
+    font-family: $fonte-titulo;
     font-size: 1.5rem;
+    background-color: $cor-links;
+    color: #fff;
+    padding: .4rem;
+    cursor: pointer;
 }
 
 
