@@ -129,14 +129,25 @@
     }
 }
 
+.fem__card--info {
+    border-top: 1px solid #818181;
+}
+
+.fem__card--nomeBox {
+    margin-top: 1rem;
+}
+
 .fem__card--nome {
     font-family: $fonte-corpo;
     text-align: center;
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
+
 .fem__card--precos {
-    margin-bottom: 1rem;
+    background-color: #fff;
+    width: 200px;
+    margin: 0 auto;
 }
 
 .fem__card--preco {
