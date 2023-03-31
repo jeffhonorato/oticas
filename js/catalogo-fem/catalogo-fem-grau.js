@@ -9,9 +9,21 @@ const card1 = () => {
     });
 };
 
+const card2 = () => {
+    const imgPeq1 = document.querySelectorAll(".js-cardGrau-imgP-2");
+    const imgGra1 = document.querySelector(".js-cardGrau-imgG-2");
+    
+    imgPeq1.forEach((img) => {
+        img.addEventListener("click", () => {
+            imgGra1.src = img.src;
+        });
+    });
+};
+
 
 
    
 
 
 card1();
+card2();
