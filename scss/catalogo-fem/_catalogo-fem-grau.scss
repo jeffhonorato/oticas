@@ -99,6 +99,12 @@
 
 .fem__card--imgPeq {
     width: 70px;
+    opacity: .6;
+
+    &:hover {
+        opacity: 1;
+        transition: all .5s;
+    }
 }
 
 .fem__card--imgGra {
