@@ -72,7 +72,12 @@
     font-family: $fonte-titulo;
     font-size: 4rem;
     text-align: center;
-    padding: 3rem 0;
+    padding-top: 3rem;
+}
+
+.box-fem {
+    display: flex;
+    justify-content: center;
 }
 
 .fem__card--grau {
@@ -80,6 +85,7 @@
     background-color: #c1c1c1;
     border-radius: 20px;
     padding-bottom: .5rem;
+    box-shadow: 1px 1px 15px 1px #000;
 }
 
 .fem__card--GrauBox {
@@ -96,6 +102,7 @@
     display: flex;
     flex-direction: column;
     gap: .3rem;
+    cursor: pointer;
 }
 
 .fem__card--imgPeq {
@@ -200,8 +207,3 @@
     width: 300px;
     height: 600px;
   }
-
-//   .swiper-slide img {
-//     display: block;
-//     width: 100%;
-//   }

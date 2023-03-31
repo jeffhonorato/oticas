@@ -8,7 +8,7 @@ var swiper = new Swiper(".mySwiper", {
       rotate: 10,
       stretch: 1,
       depth: 90,
-      modifier: 3,
+      modifier: 5,
       slideShadows: false,
     },
     // pagination: {
