@@ -2,8 +2,8 @@ var swiper = new Swiper(".oculos-fem-grau", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: "2",
-    loop: "true",
+    slidesPerView: "auto",
+    // loop: "true",
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
