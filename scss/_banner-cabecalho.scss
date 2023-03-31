@@ -1,9 +1,10 @@
 .banner__cabecalho {
     height: 70vh;
     background-color: #000;
+  
 
         @include celular {
-            height: 42vh;
+            height: 35vh;
         }
     }
 
@@ -28,7 +29,7 @@
     transition: opacity 900ms;
 
         @include celular {
-            width: 320px;
+            width: 330px;
             height: 200px;
         }
 }

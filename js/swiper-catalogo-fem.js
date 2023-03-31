@@ -2,13 +2,13 @@ var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: "auto",
+    slidesPerView: "3",
     loop: "true",
     coverflowEffect: {
       rotate: 10,
-      stretch: 2,
+      stretch: 1,
       depth: 90,
-      modifier: 8,
+      modifier: 3,
       slideShadows: false,
     },
     // pagination: {

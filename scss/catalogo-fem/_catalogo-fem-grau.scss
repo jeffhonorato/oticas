@@ -68,8 +68,6 @@
         }
 }
 
-
-
 .catalogo__fem--grauTitulo {
     font-family: $fonte-titulo;
     font-size: 4rem;
@@ -78,17 +76,33 @@
 }
 
 .fem__card--grau {
-    border: 2px solid #000;
-    background-color: $cor-principal;
-    border-radius: 5%;
-    padding-bottom: 1rem;
+    width: 350px;
+    background-color: darkgoldenrod;
+    border-radius: 20px;
 }
 
-.fem__card--img {
-    width: 280px;
-    margin: .5rem auto;
-    border-radius: 10%;
-    border: 1px solid #000;
+.fem__card--GrauBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+
+}
+
+.fem__card--imgsPeq {
+    padding: .4rem 0rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.fem__card--imgPeq {
+    width: 70px;
+}
+
+.fem__card--imgGra {
+    width: 260px;
 }
 
 .fem__card--nome {
