@@ -2,13 +2,13 @@ var swiper = new Swiper(".oculos-fem-grau", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: "4",
-    loop: "true",
+    slidesPerView: "3",
+    loop: "false",
     coverflowEffect: {
-      rotate: 5,
+      rotate: 50,
       stretch: 1,
-      depth: 90,
-      modifier: 5,
+      depth: 100,
+      modifier: 1,
       slideShadows: false,
     },
     // pagination: {
