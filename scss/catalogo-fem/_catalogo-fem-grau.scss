@@ -196,6 +196,13 @@
     margin-top: 1rem;
 }
 
+.fem__detalhes--saibaMais p {
+    font-family: $fonte-titulo;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
 .fem__card--detalhesMenuLink {
     font-family: $fonte-titulo;
     font-size: 1.5rem;
@@ -204,7 +211,10 @@
     padding: .4rem;
     cursor: pointer;
     border-radius: 10px;
+    border: 1px solid #fff;
 }
+
+
 
 .fem__card--detalhesDescricao {
     padding: .4rem;
@@ -213,6 +223,7 @@
 
 .fem__card--detalhesDescricao p {
     margin-bottom: .4rem;
+    font-family: $fonte-corpo;
 }
 
 

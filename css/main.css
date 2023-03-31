@@ -539,6 +539,14 @@ a {
 }
 
 /* line 199, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.fem__detalhes--saibaMais p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* line 206, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--detalhesMenuLink {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1.5rem;
@@ -547,28 +555,30 @@ a {
   padding: .4rem;
   cursor: pointer;
   border-radius: 10px;
+  border: 1px solid #fff;
 }
 
-/* line 209, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 219, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--detalhesDescricao {
   padding: .4rem;
   margin-top: .5rem;
 }
 
-/* line 214, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 224, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--detalhesDescricao p {
   margin-bottom: .4rem;
+  font-family: "Didact Gothic", sans-serif;
 }
 
 /***** SWIPER SLIDER  *****/
-/* line 220, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 231, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 226, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 237, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .swiper-slide {
   background-position: center;
   background-size: cover;
@@ -579,7 +589,7 @@ a {
 }
 
 @media (max-width: 420px) {
-  /* line 226, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+  /* line 237, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
   .swiper-slide {
     width: 320px;
   }
