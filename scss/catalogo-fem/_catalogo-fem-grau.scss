@@ -77,8 +77,9 @@
 
 .fem__card--grau {
     width: 350px;
-    background-color: darkgoldenrod;
+    background-color: #c1c1c1;
     border-radius: 20px;
+    padding-bottom: .5rem;
 }
 
 .fem__card--GrauBox {
@@ -99,16 +100,24 @@
 
 .fem__card--imgPeq {
     width: 70px;
-    opacity: .6;
+    opacity: .7;
+    border-radius: 5px;
 
     &:hover {
         opacity: 1;
         transition: all .5s;
+        border-radius: 0px;
     }
 }
 
 .fem__card--imgGra {
     width: 260px;
+    border-radius: 10px;
+
+    &:hover {
+        transition: all .5s;
+        border-radius: 0px;
+    }
 }
 
 .fem__card--nome {
@@ -176,175 +185,6 @@
             color: #000;
         }
 }
-
-
-/***** MODAL BOX  *****/
-.modal__card--grau {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(131, 131, 131, 0.5);
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    display: none;
-}
-
-.modal__card--grau.ativo {
-    display: block;
-}
-
-.modal__card--box {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: grid;
-    place-content: center;
-    grid-template-columns: 400px 600px;
-    justify-content: center;
-    margin: 2rem;
-    border-radius: 30px;
-    box-shadow: 1px 1px 10px #000;
-    background-color: #fff;
-        
-        @include celular {
-            display: grid;
-            grid-template-columns: 1fr;
-            justify-content: center;
-            justify-items: center;
-        }
-}
-
-.btn-fechar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 60px;
-    position: absolute;
-    opacity: .7;
-    cursor: pointer;
-
-        &:hover {
-            opacity: 1;
-            transition: all .5s;
-        }
-}
-
-.modal__card--fotos {
-    display: flex;
-    align-items: center;
-    gap: .4rem;
-    border: 1px solid #000;
-    border-radius: 6px;
-    width: 340px;
-    padding: 4px;
-    box-shadow: 1px 1px 10px #000;
-}
-
-.modal__card--fotosPeq {
-    display: flex;
-    flex-direction: column;
-    gap: .4rem;
-
-}
-
-.img-peq-grauFem {
-    width: 80px;
-    border-radius: 10px;
-    opacity: .7;
-    border: 1px solid #000;
-    cursor: pointer;
-    
-
-        &:hover {
-            opacity: 1;
-            transition: all .6s;
-        }
-}
-
-.img-gra-grauFem {
-    width: 280px;
-    border-radius: 4px;
-    border: 1px solid #000;
-}
-
-.modal__card--infoBox {
-    margin: 0rem .4rem;
-}
-
-.modal__card--titulo {
-    font-family: $fonte-titulo;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-
-        @include celular {
-            margin-top: 1.5rem;
-        }
-}
-
-.modal__card--precoBox {
-    margin-bottom: 1rem;
-}
-
-.modal__card--preco {
-    font-family: $fonte-corpo;
-    font-size: 2rem;
-}
-
-.modal__card__juros {
-    font-family: $fonte-corpo;
-    font-size: 1.2rem;
-}
-
-.modal__card--link {
-    font-family: $fonte-titulo;
-    background-color: $cor-links;
-    color: #fff;
-    font-size: 1.6rem;
-    padding: .3rem;
-    border-radius: 10px;
-    border: 2px solid #fff;
-    margin-bottom: 1rem;
-    width: 100px;
-    text-align: center;
-
-        &:hover {
-            background-color: $cor-cards; 
-            border: 2px solid #000;
-            color: #000;
-            transition: all .5s;
-        }
-}
-
-.modal__card--descBox {
-    margin-bottom: 1rem;
-}
-
-.modal__card--descTitulo {
-    font-family: $fonte-corpo;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-}
-
-.modal__card--descP {
-    font-family: $fonte-corpo;
-}
-
-.modal__card--caracteristicaTitulo {
-    font-family: $fonte-corpo;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-}
-
-
-.modal__card--caracteristicaItens {
-    font-family: $fonte-corpo;
-}
-
 
 
 /***** SWIPER SLIDER  *****/

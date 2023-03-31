@@ -412,11 +412,12 @@ a {
 /* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--grau {
   width: 350px;
-  background-color: darkgoldenrod;
+  background-color: #c1c1c1;
   border-radius: 20px;
+  padding-bottom: .5rem;
 }
 
-/* line 84, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 85, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--GrauBox {
   display: flex;
   justify-content: center;
@@ -424,7 +425,7 @@ a {
   gap: .4rem;
 }
 
-/* line 92, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 93, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--imgsPeq {
   padding: .4rem 0rem;
   border-radius: 4px;
@@ -433,24 +434,33 @@ a {
   gap: .3rem;
 }
 
-/* line 100, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 101, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--imgPeq {
   width: 70px;
-  opacity: .6;
+  opacity: .7;
+  border-radius: 5px;
 }
 
-/* line 104, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 106, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--imgPeq:hover {
   opacity: 1;
   transition: all .5s;
+  border-radius: 0px;
 }
 
-/* line 110, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 113, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--imgGra {
   width: 260px;
+  border-radius: 10px;
 }
 
-/* line 114, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 117, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.fem__card--imgGra:hover {
+  transition: all .5s;
+  border-radius: 0px;
+}
+
+/* line 123, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--nome {
   font-family: "Didact Gothic", sans-serif;
   text-align: center;
@@ -458,12 +468,12 @@ a {
   font-size: 1.2rem;
 }
 
-/* line 120, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 129, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--precos {
   margin-bottom: 1rem;
 }
 
-/* line 124, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 133, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--preco {
   font-family: "Didact Gothic", sans-serif;
   font-size: 1.4rem;
@@ -471,14 +481,14 @@ a {
   text-align: center;
 }
 
-/* line 131, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 140, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--juros {
   font-family: "Didact Gothic", sans-serif;
   font-size: 1rem;
   text-align: center;
 }
 
-/* line 137, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 146, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--links {
   display: flex;
   justify-content: center;
@@ -486,7 +496,7 @@ a {
   gap: 1rem;
 }
 
-/* line 144, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 153, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--detalhes {
   padding: .5rem;
   background-color: #002F5D;
@@ -498,7 +508,7 @@ a {
   cursor: pointer;
 }
 
-/* line 154, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 163, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--detalhes:hover {
   background-color: #e9e9e9;
   transition: all .5s;
@@ -506,7 +516,7 @@ a {
   color: #000;
 }
 
-/* line 162, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 171, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--a {
   padding: .5rem;
   background-color: #002F5D;
@@ -518,7 +528,7 @@ a {
   cursor: pointer;
 }
 
-/* line 172, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 181, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--a:hover {
   background-color: #e9e9e9;
   transition: all .5s;
@@ -526,207 +536,15 @@ a {
   color: #000;
 }
 
-/***** MODAL BOX  *****/
-/* line 182, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--grau {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(131, 131, 131, 0.5);
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  display: none;
-}
-
-/* line 195, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--grau.ativo {
-  display: block;
-}
-
-/* line 199, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--box {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: grid;
-  place-content: center;
-  grid-template-columns: 400px 600px;
-  justify-content: center;
-  margin: 2rem;
-  border-radius: 30px;
-  box-shadow: 1px 1px 10px #000;
-  background-color: #fff;
-}
-
-@media (max-width: 420px) {
-  /* line 199, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-  .modal__card--box {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    justify-items: center;
-  }
-}
-
-/* line 222, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.btn-fechar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 60px;
-  position: absolute;
-  opacity: .7;
-  cursor: pointer;
-}
-
-/* line 231, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.btn-fechar:hover {
-  opacity: 1;
-  transition: all .5s;
-}
-
-/* line 237, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--fotos {
-  display: flex;
-  align-items: center;
-  gap: .4rem;
-  border: 1px solid #000;
-  border-radius: 6px;
-  width: 340px;
-  padding: 4px;
-  box-shadow: 1px 1px 10px #000;
-}
-
-/* line 248, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--fotosPeq {
-  display: flex;
-  flex-direction: column;
-  gap: .4rem;
-}
-
-/* line 255, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.img-peq-grauFem {
-  width: 80px;
-  border-radius: 10px;
-  opacity: .7;
-  border: 1px solid #000;
-  cursor: pointer;
-}
-
-/* line 263, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.img-peq-grauFem:hover {
-  opacity: 1;
-  transition: all .6s;
-}
-
-/* line 269, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.img-gra-grauFem {
-  width: 280px;
-  border-radius: 4px;
-  border: 1px solid #000;
-}
-
-/* line 275, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--infoBox {
-  margin: 0rem .4rem;
-}
-
-/* line 279, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--titulo {
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-@media (max-width: 420px) {
-  /* line 279, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-  .modal__card--titulo {
-    margin-top: 1.5rem;
-  }
-}
-
-/* line 289, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--precoBox {
-  margin-bottom: 1rem;
-}
-
-/* line 293, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--preco {
-  font-family: "Didact Gothic", sans-serif;
-  font-size: 2rem;
-}
-
-/* line 298, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card__juros {
-  font-family: "Didact Gothic", sans-serif;
-  font-size: 1.2rem;
-}
-
-/* line 303, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--link {
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  background-color: #002F5D;
-  color: #fff;
-  font-size: 1.6rem;
-  padding: .3rem;
-  border-radius: 10px;
-  border: 2px solid #fff;
-  margin-bottom: 1rem;
-  width: 100px;
-  text-align: center;
-}
-
-/* line 315, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--link:hover {
-  background-color: #e9e9e9;
-  border: 2px solid #000;
-  color: #000;
-  transition: all .5s;
-}
-
-/* line 323, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--descBox {
-  margin-bottom: 1rem;
-}
-
-/* line 327, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--descTitulo {
-  font-family: "Didact Gothic", sans-serif;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-}
-
-/* line 333, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--descP {
-  font-family: "Didact Gothic", sans-serif;
-}
-
-/* line 337, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--caracteristicaTitulo {
-  font-family: "Didact Gothic", sans-serif;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-}
-
-/* line 344, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
-.modal__card--caracteristicaItens {
-  font-family: "Didact Gothic", sans-serif;
-}
-
 /***** SWIPER SLIDER  *****/
-/* line 351, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 191, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 357, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 197, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .swiper-slide {
   background-position: center;
   background-size: cover;
