@@ -61,10 +61,10 @@
 /***** CATALOGO FEMININO - ÓCULOS DE GRAU  *****/
 .catalogo__fem--grau {
     background-color: $cor-cards;
-    height: 140vh;
+    // height: 140vh;
 
         @include celular {
-            height: 110vh;
+            // height: 110vh;
         }
 }
 
@@ -203,6 +203,16 @@
     color: #fff;
     padding: .4rem;
     cursor: pointer;
+    border-radius: 10px;
+}
+
+.fem__card--detalhesDescricao {
+    padding: .4rem;
+    margin-top: .5rem;
+}
+
+.fem__card--detalhesDescricao p {
+    margin-bottom: .4rem;
 }
 
 
