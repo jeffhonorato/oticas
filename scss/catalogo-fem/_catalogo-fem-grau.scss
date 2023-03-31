@@ -75,11 +75,6 @@
     padding-top: 3rem;
 }
 
-.box-fem {
-    display: flex;
-    justify-content: center;
-}
-
 .fem__card--grau {
     width: 350px;
     background-color: #c1c1c1;
@@ -206,4 +201,8 @@
     background-size: cover;
     width: 300px;
     height: 600px;
+
+    @include celular {
+        width: 320px;
+    }
   }
