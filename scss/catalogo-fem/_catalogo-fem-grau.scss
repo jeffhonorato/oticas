@@ -64,7 +64,7 @@
     height: 120vh;
 
         @include celular {
-            height: 135vh;
+            height: 110vh;
         }
 }
 
@@ -81,6 +81,11 @@
     border-radius: 20px;
     padding-bottom: .5rem;
     box-shadow: 1px 1px 15px 1px #000;
+
+    &:hover {
+        background-color: #ffffff;
+        transition: all .5s;
+    }
 }
 
 .fem__card--GrauBox {
@@ -104,6 +109,7 @@
     width: 70px;
     opacity: .7;
     border-radius: 5px;
+    border: 1px solid #000;
 
     &:hover {
         opacity: 1;
@@ -115,6 +121,7 @@
 .fem__card--imgGra {
     width: 260px;
     border-radius: 10px;
+    border: 1px solid #000;
 
     &:hover {
         transition: all .5s;
