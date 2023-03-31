@@ -552,6 +552,8 @@ a {
   background-size: cover;
   width: 300px;
   height: 600px;
+  display: grid;
+  justify-content: center;
 }
 
 @media (max-width: 420px) {
