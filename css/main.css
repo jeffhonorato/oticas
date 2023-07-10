@@ -123,7 +123,7 @@ a {
 .nav__item {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1.4rem;
-  background-color: #00B2D1;
+  background-color: #4A7187;
   padding: .5rem;
   border: 1px solid #000;
   color: #000;
@@ -209,7 +209,7 @@ a {
 /* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_otica-info.scss */
 .otica__info--card {
   padding: .7rem;
-  box-shadow: 5px 5px 2px #002F5D;
+  box-shadow: 5px 5px 2px #548AA9;
   width: 200px;
   border-radius: 6px;
 }
@@ -218,7 +218,7 @@ a {
 .otica__info--card:hover {
   border-radius: 20px;
   transition: all .5s;
-  box-shadow: 1px 1px 20px #002F5D;
+  box-shadow: 1px 1px 20px #548AA9;
   background-color: #fff;
 }
 
@@ -239,7 +239,7 @@ a {
 .otica__info--link {
   font-size: 1.1rem;
   font-family: "Yanone Kaffeesatz", sans-serif;
-  background-color: #00B2D1;
+  background-color: #4A7187;
   color: #fff;
   padding: .5rem;
   display: flex;
@@ -257,8 +257,8 @@ a {
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .catalogo__feminino {
-  background-color: #00B2D1;
-  border-top: 1px solid #002F5D;
+  background-color: #4A7187;
+  border-top: 1px solid #548AA9;
 }
 
 /* line 6, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
@@ -340,7 +340,7 @@ a {
 
 /* line 68, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .catalogo__fem--link:hover {
-  background-color: #002F5D;
+  background-color: #548AA9;
   border: 1px solid #fff;
   transition: all .6s;
   box-shadow: 5px 5px 10px #fff;
@@ -386,7 +386,7 @@ a {
   font-size: 4rem;
   text-align: center;
   padding-top: 3rem;
-  color: #002F5D;
+  color: #548AA9;
   margin-bottom: 3rem;
 }
 
@@ -462,7 +462,7 @@ a {
 
 /* line 179, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--info {
-  background-color: #002F5D;
+  background-color: #548AA9;
   padding-bottom: 1rem;
 }
 
@@ -482,7 +482,7 @@ a {
 
 /* line 196, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--precos {
-  background-color: #002F5D;
+  background-color: #548AA9;
   color: #fff;
   margin: 0 auto;
   padding: .5rem 0rem;
@@ -521,7 +521,7 @@ a {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 1rem;
-  background-color: #002F5D;
+  background-color: #548AA9;
   padding: .4rem;
   border: 1px solid #000;
   border-radius: 10px;
@@ -536,7 +536,7 @@ a {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 1rem;
-  background-color: #00B2D1;
+  background-color: #4A7187;
   padding: .4rem;
   border-radius: 10px;
   box-shadow: 2px 2px 5px 2px #000;
@@ -547,7 +547,7 @@ a {
 .fem__card--detalhesMenuLink {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1.5rem;
-  background-color: #002F5D;
+  background-color: #548AA9;
   color: #fff;
   padding: .4rem;
   cursor: pointer;
