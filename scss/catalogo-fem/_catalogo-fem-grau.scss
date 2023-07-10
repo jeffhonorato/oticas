@@ -90,7 +90,12 @@
 
 .fem__card--grau {
     width: 350px;
-    background-color: #c1c1c1;
+    background: rgba(193, 193, 193, 0.83);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.5px);
+-webkit-backdrop-filter: blur(8.5px);
+border: 1px solid rgba(193, 193, 193, 1);
     border-radius: 20px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: .5rem 0rem;
@@ -154,11 +159,8 @@
 }
 
 .fem__card--precos {
-    background: rgba(0, 178, 209, 0.65);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background-color: $cor-links;
+
     margin: 0 auto;
     padding: .5rem 0rem;
     border-top-right-radius: 20%;
