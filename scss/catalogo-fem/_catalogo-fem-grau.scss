@@ -1,3 +1,37 @@
+.catalogo__feminino {
+    background-color: $cor-principal;
+    border-top: 1px solid $cor-links;
+}
+
+.catalogo__fem--cabecalho {
+    padding-top: 4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo__fem--titulo {
+    font-family: $fonte-titulo;
+    font-size: 10rem;
+
+        @include celular {
+            font-size: 5rem;
+            margin-left: 2rem;
+        }
+
+}
+
+.catalogo__fem--titulo2 {
+    font-family: $fonte-titulo;
+    font-size: 10rem;
+
+    @include celular {
+        font-size: 5rem;
+        margin-left: 4rem;
+    }
+}
+
+
 .catalogo__fem--btnBox {
     padding-bottom: 2rem;
 }
@@ -60,12 +94,12 @@
 
 /***** CATALOGO FEMININO - ÓCULOS DE GRAU  *****/
 .catalogo__fem--grau {
+    height: 150vh;
     background: #fff;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 0px );
-    -webkit-backdrop-filter: blur( 0px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
         @include celular {
             // height: 110vh;
         }
@@ -90,13 +124,13 @@
 
 .fem__card--grau {
     width: 300px;
+    height: 25rem; /* 400px */
     background: rgba(193, 193, 193, 0.83);
     backdrop-filter: blur(8.5px);
     -webkit-backdrop-filter: blur(8.5px);
     border: 1px solid rgba(193, 193, 193, 1);
     border-radius: 20px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    padding: .5rem 0rem;
     box-shadow: 1px 1px 5px 1px #000;
 }
 
@@ -143,7 +177,8 @@
 }
 
 .fem__card--info {
-    border-top: 1px solid #818181;
+    background-color: $cor-links;
+    padding-bottom: 1rem;
 }
 
 .fem__card--nomeBox {
@@ -155,15 +190,17 @@
     text-align: center;
     margin-bottom: 1rem;
     font-size: 1.2rem;
+    color: #fff;
 }
 
 .fem__card--precos {
     background-color: $cor-links;
-
+    color: #fff;
     margin: 0 auto;
     padding: .5rem 0rem;
     border-top-right-radius: 20%;
     border-bottom-left-radius: 10%;
+    border: 2px solid #fff;
     box-shadow: 0px 2px 5px 1px #000;
 }
 
@@ -179,13 +216,12 @@
     font-size: 1rem;
     text-align: center;
 }
-
-.fem__card--detalhesMenu {
+.fem__detalhes--saibaMais {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .4rem;
-    margin-top: 1rem;
+    gap: .5rem;
+    
 }
 
 .fem__detalhes--saibaMais p {
@@ -193,6 +229,27 @@
     text-align: center;
     font-size: 1.5rem;
     margin-top: 1rem;
+
+    background-color: $cor-links;
+    padding: .4rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 2px #000;
+    color: #fff;
+}
+
+.fem__detalhes--saibaMais a {
+    font-family: $fonte-titulo;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+
+    background-color: $cor-principal;
+    padding: .4rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px #000;
+    color: #fff;
 }
 
 .fem__card--detalhesMenuLink {
