@@ -1,30 +1,30 @@
 @charset "UTF-8";
 /********** VARIAVEIS - GLOBAIS **********/
 /********** CONFIGURAÇÕES **********/
-/* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+/* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+/* line 21, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
 ul, li {
   list-style: none;
 }
 
-/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+/* line 25, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
 img {
   display: block;
   max-width: 100%;
 }
 
-/* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
+/* line 30, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/main.scss */
 a {
   text-decoration: none;
   display: block;
@@ -209,7 +209,7 @@ a {
 /* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/_otica-info.scss */
 .otica__info--card {
   padding: .7rem;
-  box-shadow: 5px 5px 2px #548AA9;
+  box-shadow: 5px 5px 2px #9EC9DF;
   width: 200px;
   border-radius: 6px;
 }
@@ -218,7 +218,7 @@ a {
 .otica__info--card:hover {
   border-radius: 20px;
   transition: all .5s;
-  box-shadow: 1px 1px 20px #548AA9;
+  box-shadow: 1px 1px 20px #9EC9DF;
   background-color: #fff;
 }
 
@@ -258,7 +258,7 @@ a {
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .catalogo__feminino {
   background-color: #4A7187;
-  border-top: 1px solid #548AA9;
+  border-top: 1px solid #9EC9DF;
 }
 
 /* line 6, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
@@ -340,7 +340,7 @@ a {
 
 /* line 68, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .catalogo__fem--link:hover {
-  background-color: #548AA9;
+  background-color: #9EC9DF;
   border: 1px solid #fff;
   transition: all .6s;
   box-shadow: 5px 5px 10px #fff;
@@ -386,7 +386,7 @@ a {
   font-size: 4rem;
   text-align: center;
   padding-top: 3rem;
-  color: #548AA9;
+  color: #9EC9DF;
   margin-bottom: 3rem;
 }
 
@@ -521,7 +521,7 @@ a {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 1rem;
-  background-color: #548AA9;
+  background-color: #9EC9DF;
   padding: .4rem;
   border: 1px solid #000;
   border-radius: 10px;

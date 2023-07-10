@@ -12,14 +12,14 @@
 
 .otica__info--card {
     padding: .7rem;
-    box-shadow: 5px 5px 2px $cor-links;
+    box-shadow: 5px 5px 2px $cor-btn;
     width: 200px;
     border-radius: 6px;
 
         &:hover {
             border-radius: 20px;
             transition: all .5s;
-            box-shadow: 1px 1px 20px $cor-links;
+            box-shadow: 1px 1px 20px $cor-btn;
             background-color: #fff;
         }
 }
