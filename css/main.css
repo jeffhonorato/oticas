@@ -528,10 +528,16 @@ a {
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 2px 2px 5px 2px #000;
-  color: #fff;
+  color: #000;
 }
 
-/* line 243, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 242, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.fem__detalhes--saibaMais p:hover {
+  background-color: #fff;
+  transition: all .4s;
+}
+
+/* line 248, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__detalhes--saibaMais a {
   font-family: "Yanone Kaffeesatz", sans-serif;
   text-align: center;
@@ -544,7 +550,14 @@ a {
   color: #fff;
 }
 
-/* line 256, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 260, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+.fem__detalhes--saibaMais a:hover {
+  background-color: #fff;
+  transition: all .4s;
+  color: #000;
+}
+
+/* line 267, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--detalhesMenuLink {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1.5rem;
@@ -556,7 +569,7 @@ a {
   border: 1px solid #fff;
 }
 
-/* line 267, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 278, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--detalhesDescricao {
   padding: .4rem;
   margin-top: .5rem;
@@ -565,13 +578,13 @@ a {
   display: none;
 }
 
-/* line 275, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 286, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--detalhesDescricao p {
   margin-bottom: .4rem;
   font-family: "Didact Gothic", sans-serif;
 }
 
-/* line 280, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
+/* line 291, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oticas/scss/catalogo-fem/_catalogo-fem-grau.scss */
 .fem__card--detalhes {
   background-color: #c1c1c1;
   display: none;
